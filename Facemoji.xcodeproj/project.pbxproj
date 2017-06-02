@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6807787A1E2FF4E1004D0C44 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 680778791E2FF4E1004D0C44 /* camera.png */; };
+		6807787C1E2FF543004D0C44 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6807787B1E2FF543004D0C44 /* CameraViewController.swift */; };
+		6807787E1E2FF5DD004D0C44 /* GradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6807787D1E2FF5DD004D0C44 /* GradientLayer.swift */; };
+		68105DBB1E2ECF9600B5F77E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68105DBA1E2ECF9600B5F77E /* Assets.xcassets */; };
+		68105DC21E2ECF9600B5F77E /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 68105DC11E2ECF9600B5F77E /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		68105DC71E2ECF9600B5F77E /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68105DC61E2ECF9600B5F77E /* Messages.framework */; };
+		68105DCA1E2ECF9600B5F77E /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68105DC91E2ECF9600B5F77E /* MessagesViewController.swift */; };
+		68105DCD1E2ECF9600B5F77E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68105DCB1E2ECF9600B5F77E /* MainInterface.storyboard */; };
+		68105DCF1E2ECF9600B5F77E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68105DCE1E2ECF9600B5F77E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68105DC31E2ECF9600B5F77E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68105DB11E2ECF9500B5F77E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68105DC01E2ECF9600B5F77E;
+			remoteInfo = MessagesExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68105DD61E2ECF9600B5F77E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				68105DC21E2ECF9600B5F77E /* MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		680778791E2FF4E1004D0C44 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		6807787B1E2FF543004D0C44 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		6807787D1E2FF5DD004D0C44 /* GradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientLayer.swift; sourceTree = "<group>"; };
+		68105DB71E2ECF9600B5F77E /* Facemoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facemoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68105DBA1E2ECF9600B5F77E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68105DBC1E2ECF9600B5F77E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68105DC11E2ECF9600B5F77E /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		68105DC61E2ECF9600B5F77E /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		68105DC91E2ECF9600B5F77E /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		68105DCC1E2ECF9600B5F77E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		68105DCE1E2ECF9600B5F77E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68105DD01E2ECF9600B5F77E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68105DBE1E2ECF9600B5F77E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68105DC71E2ECF9600B5F77E /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68105DB01E2ECF9500B5F77E = {
+			isa = PBXGroup;
+			children = (
+				68105DB91E2ECF9600B5F77E /* Facemoji */,
+				68105DC81E2ECF9600B5F77E /* MessagesExtension */,
+				68105DC51E2ECF9600B5F77E /* Frameworks */,
+				68105DB81E2ECF9600B5F77E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68105DB81E2ECF9600B5F77E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68105DB71E2ECF9600B5F77E /* Facemoji.app */,
+				68105DC11E2ECF9600B5F77E /* MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68105DB91E2ECF9600B5F77E /* Facemoji */ = {
+			isa = PBXGroup;
+			children = (
+				68105DBA1E2ECF9600B5F77E /* Assets.xcassets */,
+				68105DBC1E2ECF9600B5F77E /* Info.plist */,
+			);
+			path = Facemoji;
+			sourceTree = "<group>";
+		};
+		68105DC51E2ECF9600B5F77E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68105DC61E2ECF9600B5F77E /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68105DC81E2ECF9600B5F77E /* MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				68105DC91E2ECF9600B5F77E /* MessagesViewController.swift */,
+				68105DCB1E2ECF9600B5F77E /* MainInterface.storyboard */,
+				6807787D1E2FF5DD004D0C44 /* GradientLayer.swift */,
+				6807787B1E2FF543004D0C44 /* CameraViewController.swift */,
+				68105DCE1E2ECF9600B5F77E /* Assets.xcassets */,
+				680778791E2FF4E1004D0C44 /* camera.png */,
+				68105DD01E2ECF9600B5F77E /* Info.plist */,
+			);
+			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68105DB61E2ECF9500B5F77E /* Facemoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68105DD71E2ECF9600B5F77E /* Build configuration list for PBXNativeTarget "Facemoji" */;
+			buildPhases = (
+				68105DB51E2ECF9500B5F77E /* Resources */,
+				68105DD61E2ECF9600B5F77E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68105DC41E2ECF9600B5F77E /* PBXTargetDependency */,
+			);
+			name = Facemoji;
+			productName = Facemoji;
+			productReference = 68105DB71E2ECF9600B5F77E /* Facemoji.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		68105DC01E2ECF9600B5F77E /* MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68105DD31E2ECF9600B5F77E /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
+			buildPhases = (
+				68105DBD1E2ECF9600B5F77E /* Sources */,
+				68105DBE1E2ECF9600B5F77E /* Frameworks */,
+				68105DBF1E2ECF9600B5F77E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessagesExtension;
+			productName = MessagesExtension;
+			productReference = 68105DC11E2ECF9600B5F77E /* MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68105DB11E2ECF9500B5F77E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kevin Turner";
+				TargetAttributes = {
+					68105DB61E2ECF9500B5F77E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					68105DC01E2ECF9600B5F77E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 68105DB41E2ECF9500B5F77E /* Build configuration list for PBXProject "Facemoji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68105DB01E2ECF9500B5F77E;
+			productRefGroup = 68105DB81E2ECF9600B5F77E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68105DB61E2ECF9500B5F77E /* Facemoji */,
+				68105DC01E2ECF9600B5F77E /* MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68105DB51E2ECF9500B5F77E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68105DBB1E2ECF9600B5F77E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68105DBF1E2ECF9600B5F77E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68105DCF1E2ECF9600B5F77E /* Assets.xcassets in Resources */,
+				6807787A1E2FF4E1004D0C44 /* camera.png in Resources */,
+				68105DCD1E2ECF9600B5F77E /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68105DBD1E2ECF9600B5F77E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68105DCA1E2ECF9600B5F77E /* MessagesViewController.swift in Sources */,
+				6807787C1E2FF543004D0C44 /* CameraViewController.swift in Sources */,
+				6807787E1E2FF5DD004D0C44 /* GradientLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68105DC41E2ECF9600B5F77E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68105DC01E2ECF9600B5F77E /* MessagesExtension */;
+			targetProxy = 68105DC31E2ECF9600B5F77E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68105DCB1E2ECF9600B5F77E /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68105DCC1E2ECF9600B5F77E /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68105DD11E2ECF9600B5F77E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68105DD21E2ECF9600B5F77E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68105DD41E2ECF9600B5F77E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinturner.Facemoji.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		68105DD51E2ECF9600B5F77E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinturner.Facemoji.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		68105DD81E2ECF9600B5F77E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Facemoji/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinturner.Facemoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		68105DD91E2ECF9600B5F77E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Facemoji/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinturner.Facemoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68105DB41E2ECF9500B5F77E /* Build configuration list for PBXProject "Facemoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68105DD11E2ECF9600B5F77E /* Debug */,
+				68105DD21E2ECF9600B5F77E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68105DD31E2ECF9600B5F77E /* Build configuration list for PBXNativeTarget "MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68105DD41E2ECF9600B5F77E /* Debug */,
+				68105DD51E2ECF9600B5F77E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68105DD71E2ECF9600B5F77E /* Build configuration list for PBXNativeTarget "Facemoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68105DD81E2ECF9600B5F77E /* Debug */,
+				68105DD91E2ECF9600B5F77E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68105DB11E2ECF9500B5F77E /* Project object */;
+}
